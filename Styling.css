@@ -59,7 +59,14 @@
 
 .signupStyle{
 	
-	background-color: #feede7;
+	background-color: #8080c0;
 	background-size:cover;
+	
+}
+
+.imgstyle{
+	position: absolute;
+	top: 10px;
+	right: 50px;
 	
 }
