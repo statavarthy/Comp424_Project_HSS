@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign in</title>
+<script type="text/javascript" src="LoginValidations.js"></script>
+<link rel="stylesheet" type="text/css" href="Styling.css">
+</head>
+<body class="signupStyle">
+<form >
+<table>
+	<tr>
+		<td> User Name</td>
+		<td> <input type="text" value="Enter your email ID" id="userName" onclick="resetData('userName')"></td>
+	</tr>
+	<tr>
+		<td>Password</td>
+		<td><input type="password" value="Enter your password" id="pswrd" onclick="resetData('pswrd')"> </td>
+	</tr>
+	<tr>
+		<td> Re-enter Password </td>
+		<td><input type="password" value="Enter your password" id="pswrdVer2" onclick="resetData('pswrdVer2')"> </td>
+	</tr>
+	<tr>
+		<td> First Name</td>
+		<td><input type ="text" value="Enter your First Name" id="firstName" onclick="resetData('firstName')"></td>
+	</tr>
+	<tr>
+		<td> Last Name</td>
+		<td><input type ="text" value="Enter your Last Name" id="lastName" onclick="resetData('lastName')"></td>
+	</tr>
+	<tr>
+		<td> Phone No</td>
+		<td><input type ="text" value="Enter your phone No" id="phoneNo" onclick="resetData('phoneNo')"></td>
+	</tr>
+	<tr>
+		<td> City</td>
+		<td><input type ="text" value="Enter city" id="city" onclick="resetData('city')"></td>
+	</tr>
+	<tr>
+		<td> State</td>
+		<td><input type ="text" value="Enter State" id="state" onclick="resetData('state')"></td>
+	</tr>
+	<tr>
+		<td> Country</td>
+		<td><select name ="Country"  id="dropCountry"> 
+		<option value = "India"> India </option>
+		<option value = "USA"> USA </option>
+		<option value = "UK"> UK </option>
+		</select>
+		</td>
+	</tr>
+	<tr>
+		<td><input type="button" value="Submit" id="createAccount" onclick="createNewAccount()">
+		</td>
+	</tr>
+</table>
+</form>
+
+</body>
+</html>
