@@ -5,6 +5,12 @@ body{
   font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
 }
 
+h1, h2, h3, h4, h5, p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
 /*Landing Page content*/
 #landing_content{
 	width: 100vw;
@@ -16,69 +22,4 @@ body{
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-}
-
-.LoginformStyle{
-	position: absolute;
-	top: 300px;
-	right: 100px;
-}
-
-.labelStyle{
-	color: white;
-	font-size: 20px;
-	font-weight: bold;
-	font-family: calibri;
-}
-
-.textStyle{
-	border-radius: 5px;
-    width: 200px;
-    padding: 10px;
-    border: 2px solid #000080;
-    margin: 5px;
-}
-
-.buttonStyle{
-	border-radius: 5px;
-    width: 100px;
-    padding: 10px;
-    border: 2px solid #000080;
-    margin: 20px;
-}
-
-.HeadingFormStyle{
-	color: white;
-	font-size: 30px;
-	font-weight: bold;
-	font-family: calibri;
-	position: absolute;
-	top: 50px;
-	left: 150px;
-}
-
-.paraStyle{
-	color: white;
-	border-radius: 5px;
-    width: 700px;
-    padding: 10px;
-    margin: 5px;
-    position: relative;
-	top: 200px;
-	left:150px;
-	text-align: justify;
-}
-
-.signupStyle{
-
-	background-color: #8080c0;
-	background-size:cover;
-
-}
-
-.imgstyle{
-	position: absolute;
-	top: 10px;
-	right: 50px;
-
 }
