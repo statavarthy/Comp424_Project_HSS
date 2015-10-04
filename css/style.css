@@ -10,16 +10,73 @@ h1, h2, h3, h4, h5, p {
   padding: 0 !important;
 }
 
+/* Navigation Bar */
+
+#nav_bar{
+	height: 40px;
+	border: 1px red solid;
+}
+
 
 /*Landing Page content*/
-#landing_content{
+
+#landing_page{
 	width: 100vw;
   height: 95vh;
-  background: url(../images/bg1.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg1.jpeg);
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+	position: absolute;
+}
+
+#landing_content{
+	margin-top: 25px;
+	color: white;
+}
+
+#landing_content h1{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2em;
+	text-align: center;
+	padding: 10px 10% 25px 10% !important;
+}
+
+#landing_content p {
+	padding: 0px 5% 15px 5% !important;
+	text-align: center;
+}
+
+
+/* Sign In form*/
+
+#sign_in_form{
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+}
+
+.text_input{
+	margin: 0px;
+	height: 30px;
+	font-size: 0.667em;
+	border: 1px solid #E6E6E6;
+	width: 100%;
+}
+
+.sign_in_button{
+	width: 100%;
+	margin-top: 15px;
+	margin-left: 1px;
+	height: 50px;
+	border-radius: 0px;
+	background-color: #09C;
+	color: #FFF;
+	border: medium none;
+	font-size: 0.667em;
 }
