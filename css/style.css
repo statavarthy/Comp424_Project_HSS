@@ -1,9 +1,21 @@
-@CHARSET "ISO-8859-1";
+body{
+  font-size: 18px;
+	margin: 0 !important;
+	padding: 0 !important;
+  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
+}
 
-.bodyStyle{
-	background: url("backgnd2.jpg");
-	background-size:100%;
-	background-repeat: no-repeat;
+/*Landing Page content*/
+#landing_content{
+	width: 100vw;
+  height: 95vh;
+  background: url(../images/bg1.jpeg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .LoginformStyle{
@@ -20,7 +32,7 @@
 }
 
 .textStyle{
-	border-radius: 5px;	
+	border-radius: 5px;
     width: 200px;
     padding: 10px;
     border: 2px solid #000080;
@@ -28,7 +40,7 @@
 }
 
 .buttonStyle{
-	border-radius: 5px;	
+	border-radius: 5px;
     width: 100px;
     padding: 10px;
     border: 2px solid #000080;
@@ -47,26 +59,26 @@
 
 .paraStyle{
 	color: white;
-	border-radius: 5px;	
+	border-radius: 5px;
     width: 700px;
-    padding: 10px;   
+    padding: 10px;
     margin: 5px;
     position: relative;
 	top: 200px;
 	left:150px;
-	text-align: justify;    
+	text-align: justify;
 }
 
 .signupStyle{
-	
+
 	background-color: #8080c0;
 	background-size:cover;
-	
+
 }
 
 .imgstyle{
 	position: absolute;
 	top: 10px;
 	right: 50px;
-	
+
 }
