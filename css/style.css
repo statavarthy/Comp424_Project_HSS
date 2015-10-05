@@ -9,6 +9,9 @@ h1, h2, h3, h4, h5, p {
   margin: 0 !important;
   padding: 0 !important;
 }
+.link{
+		text-decoration: none;
+}
 
 /************ Navigation Bar ***************/
 
@@ -17,10 +20,12 @@ h1, h2, h3, h4, h5, p {
 	line-height: 38px;
 	background-color: rgba(255, 255, 255, 0);
 }
+
 #logo_holder{
 	display: inline-block;
 	margin-top: 10px;
 }
+
 #sing_in_div{
 	display: inline-block;
 	float: right;
@@ -33,7 +38,10 @@ h1, h2, h3, h4, h5, p {
 	border: 1px solid #fff;
 	font-size: 0.8em;
 	border-radius: 15px;
+	color: white;
 }
+
+
 
 #sing_in_div:hover{
 	background-color: #fff;
@@ -42,7 +50,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 #logo{
-	text-decoration: none;
+
 	color: #E6E6E6;
 	font-size: 1.5em;
 	margin-left: 20px;
@@ -86,6 +94,21 @@ h1, h2, h3, h4, h5, p {
 	padding: 0px 5% 15px 5% !important;
 	text-align: center;
 }
+/*********** Landing Page for Sing Up **************/
+
+#sign_up_page{
+	width: 100vw;
+  height: 110vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg2.jpeg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+	position: absolute;
+}
+
 
 
 /********** Sign In Form *************/

@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Sign in</title>
-<script type="text/javascript" src="LoginValidations.js"></script>
-<link rel="stylesheet" type="text/css" href="Styling.css">
-</head>
-<body class="signupStyle">
-<img src="signup.jpg" class="imgstyle" height="400">
-<form >
-<table>
-	<tr>
-		<td><label class="labelStyle"> User Name</label></td>
-		<td> <input class="textStyle" type="text" value="Enter your email ID" id="userName" onclick="resetData('userName')"></td>
-	</tr>
-	<tr>
-		<td><label class="labelStyle">Password</label></td>
-		<td><input class="textStyle" type="password" value="Enter your password" id="pswrd" onclick="resetData('pswrd')"> </td>
-	</tr>
-	<tr>
-		<td><label class="labelStyle"> Re-enter Password </label></td>
-		<td><input class="textStyle" type="password" value="Enter your password" id="pswrdVer2" onclick="resetData('pswrdVer2')"> </td>
-	</tr>	
-	<tr>
-		<td><input class="buttonStyle" type="button" value="Submit" id="createAccount" onclick="createNewAccount()">
-		</td>
-	</tr>
-</table>
-</form>
+	<head>
+		  <meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+
+			<title>FaceNews | Discover the best news around you.</title>
+
+			<!-- CSS  -->
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+			<!-- FONTS -->
+			<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+			<!-- JAVASCRIPT (leave at the end) -->
+			<script type="text/javascript" src="LoginValidations.js"></script>
+	</head>
+	<body>
+
+
+
+			<div  id="sign_up_page">
+
+				<nav id="nav_bar">
+						<div id="logo_holder">
+					  <a id="logo" class="link" href="#"> Face<span class="logo_color">News</span> </a>
+						</div>
+
+							<a class="link" id="sing_in_div" href="index.html"> Sign In</a>
+
+
+				</nav>
+
+				<div id="landing_content">
+						<h1>Sing Up to FaceNews</h1>
+						<p>	Find, follow and collect the
+							most important stories of the day.
+						</p>
+						<p>	Ready to Sign Up?
+						</p>
+				</div>
+
+				<div id="sign_in_form">
+						<form >
+							  <input class="text_input" type="text" name="email" placeholder="Email">
+								<br/>
+							  <input class="text_input" type="password" name="password" placeholder="Password">
+								<br/>
+							  <input class="text_input" type="password" name="password" placeholder="Password Confirmation">
+								<br/>
+							  <input class="sign_in_button" type="submit" value="Sign Up">
+						</form>
+				</div> <!-- landing_content -->
+
+
+			</div> <!-- end landing_content -->
+
 
 </body>
 </html>
