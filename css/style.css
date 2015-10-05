@@ -112,8 +112,10 @@ h1, h2, h3, h4, h5, p {
 
 #description {
   margin-top: 25px;
-  color: white;
-  border: 1px white solid;
+  color: #09C;
+  background-color: white;
+  opacity: 0.8;
+  border: 1px #09C solid;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -127,13 +129,16 @@ padding: 10px 10% 25px 10% !important;
 }
 
 #description p {
+  color: black;
 	padding: 0px 5% 15px 5% !important;
 	text-align: center;
 }
 
 #sign_up {
-  color: white;
-  border: 1px white solid;
+  color: #09C;
+  background-color: white;
+  opacity: 0.8;
+  border: 1px #09C solid;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -147,13 +152,16 @@ padding: 10px 10% 25px 10% !important;
 }
 
 #sign_up p {
+  color: black;
 	padding: 0px 5% 15px 5% !important;
 	text-align: center;
 }
 
 #connect {
-  color: white;
-  border: 1px white solid;
+  color: #09C;
+  background-color: white;
+  opacity: 0.8;
+  border: 1px #09C solid;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -167,6 +175,7 @@ padding: 10px 10% 25px 10% !important;
 }
 
 #connect p {
+  color: black;
 	padding: 0px 5% 15px 5% !important;
 	text-align: center;
 }
