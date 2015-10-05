@@ -117,6 +117,7 @@ h1, h2, h3, h4, h5, p {
   margin-left: 10%;
   margin-right: 10%;
 }
+
 #description h2{
 text-transform: uppercase;
 font-weight: 700;
@@ -124,16 +125,19 @@ font-size: 1.5em;
 text-align: center;
 padding: 10px 10% 25px 10% !important;
 }
+
 #description p {
 	padding: 0px 5% 15px 5% !important;
 	text-align: center;
 }
+
 #sign_up {
   color: white;
   border: 1px white solid;
   margin-left: 10%;
   margin-right: 10%;
 }
+
 #sign_up h3{
   text-transform: uppercase;
   font-weight: 700;
@@ -141,17 +145,19 @@ padding: 10px 10% 25px 10% !important;
   text-align: center;
   padding: 10px 10% 25px 10% !important;
 }
+
 #sign_up p {
 	padding: 0px 5% 15px 5% !important;
 	text-align: center;
 }
+
 #connect {
   color: white;
   border: 1px white solid;
   margin-left: 10%;
   margin-right: 10%;
-
 }
+
 #connect h4{
 text-transform: uppercase;
 font-weight: 700;
@@ -159,16 +165,15 @@ font-size: 1.5em;
 text-align: center;
 padding: 10px 10% 25px 10% !important;
 }
+
 #connect p {
 	padding: 0px 5% 15px 5% !important;
 	text-align: center;
-
-<<<<<<< HEAD
 }
+
 /* Sign In form*/
-=======
+
 /********** Sign In Form *************/
->>>>>>> 57d3f57e5fae4805ee4672bd1cd30f0333a471e6
 
 #sign_in_form{
 	text-align: center;
