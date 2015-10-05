@@ -139,3 +139,55 @@ h1, h2, h3, h4, h5, p {
 	border: medium none;
 	font-size: 0.667em;
 }
+
+
+/***************** APP STYLE ******************/
+
+/*   Nav Bar   */
+#nav_bar_app{
+  background-color: rgb(68, 68, 68);
+  height: 50px;
+  border-bottom: 1px solid #09C;
+}
+
+/*   News Section   */
+
+.news{
+  height: 200px;
+  border: 1px solid red;
+  width: 80%;
+  margin: 25px 0 25px 10%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg2.jpeg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.time_holder{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.time_icon{
+  width: 15px;
+  display: inline-block;
+}
+.time{
+  color: white;
+  display: block;
+  font-size: 0.6em;
+  margin-top: -19px !important;
+  margin-left: 20px !important;
+}
+
+
+
+/*  Footer  */
+footer{
+  background-color: rgb(68, 68, 68);
+  height: 30px;
+  border-top: 1px solid #09C;
+}
