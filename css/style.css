@@ -171,7 +171,6 @@ padding: 10px 10% 25px 10% !important;
 	text-align: center;
 }
 
-/* Sign In form*/
 
 /********** Sign In Form *************/
 
@@ -245,7 +244,39 @@ padding: 10px 10% 25px 10% !important;
   margin-left: 20px !important;
 }
 
+.title_container{
+    max-height: 130px;
+    overflow: hidden;
+}
 
+.news_title{
+  font-size: 0.65em;
+  color: white;
+  line-height: 0px;
+}
+
+.source{
+  margin-top: 2%;
+}
+.source_img_container{
+  display: inline-block;
+}
+
+.news_source_img{
+  width: 30px;
+  border-radius: 50%;
+}
+
+.info_source{
+  color: white;
+  font-size: 0.75em;
+  display: inline-block;
+}
+.likes{
+  float: right;
+  color: #FFF;
+  opacity: 0.3;
+}
 
 /*  Footer  */
 footer{
