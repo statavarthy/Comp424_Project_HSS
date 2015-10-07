@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, p {
   color: #09C;
   opacity: 0.8;
   border: 1px #09C solid;
-  margin: 25px 10% 0 10%;
+  margin: 25px 10% 25px 10%;
 }
 
 #description h2{
@@ -116,7 +116,7 @@ padding: 10px 10% 25px 10% !important;
   color: #09C;
   opacity: 0.8;
   border: 1px #09C solid;
-  margin: 25px 10% 0 10%;
+  margin: 25px 10% 25px 10%;
 }
 
 #sign_up h3{
@@ -153,6 +153,15 @@ padding: 10px 10% 25px 10% !important;
   color: black;
 	padding: 0px 5% 15px 5% !important;
 	text-align: center;
+}
+.landing_img{
+  border: 2px red solid;
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+
+.landing_img img{
+  width: 250px;
 }
 /*********** Landing Page for Sing Up **************/
 
