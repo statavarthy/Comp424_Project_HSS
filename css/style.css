@@ -74,50 +74,28 @@ h1, h2, h3, h4, h5, p {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-	position: absolute;
+  	color: white;
 }
 
-#landing_content{
-	margin-top: 25px;
-	color: white;
-}
-
-#landing_content h1{
+#landing_page h1{
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 2em;
 	text-align: center;
 	padding: 10px 10% 25px 10% !important;
+  margin-top: 25px!important;
 }
 
-#landing_content p {
+#landing_page p {
 	padding: 0px 5% 15px 5% !important;
 	text-align: center;
 }
-/*********** Landing Page for Sing Up **************/
-
-#sign_up_page{
-	width: 100vw;
-  height: 110vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg2.jpeg);
-  background-position: center center;
-  background-repeat: none;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-	position: absolute;
-}
-
 
 #description {
-  margin-top: 25px;
   color: #09C;
-  background-color: white;
   opacity: 0.8;
   border: 1px #09C solid;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 25px 10% 0 10%;
 }
 
 #description h2{
@@ -136,11 +114,9 @@ padding: 10px 10% 25px 10% !important;
 
 #sign_up {
   color: #09C;
-  background-color: white;
   opacity: 0.8;
   border: 1px #09C solid;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 25px 10% 0 10%;
 }
 
 #sign_up h3{
@@ -162,8 +138,7 @@ padding: 10px 10% 25px 10% !important;
   background-color: white;
   opacity: 0.8;
   border: 1px #09C solid;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 25px 10% 25px 10%;
 }
 
 #connect h4{
@@ -179,6 +154,20 @@ padding: 10px 10% 25px 10% !important;
 	padding: 0px 5% 15px 5% !important;
 	text-align: center;
 }
+/*********** Landing Page for Sing Up **************/
+
+#sign_up_page{
+	width: 100vw;
+  height: 110vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg2.jpeg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 
 
 /********** Sign In Form *************/
