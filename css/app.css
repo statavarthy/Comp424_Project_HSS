@@ -1,5 +1,6 @@
 
-/*   News Section   */
+/********   News Section   **********/
+
 
 .news{
   height: 200px;
@@ -43,6 +44,10 @@
   line-height: 0px;
 }
 
+.news_title:hover{
+  color: #09C;
+}
+
 .source{
   margin-top: 2%;
 }
@@ -64,4 +69,43 @@
   float: right;
   color: #FFF;
   opacity: 0.3;
+}
+
+
+
+/************ MEDIA QUERIES ******************/
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+
+
+}
+
+
+/* Tablets (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) {
+
+  .news{
+      width: 35%;
+      display: inline-block;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 980px) {
+  .news{
+      width: 30%;
+      margin-left: 2%;
+      display: inline-block;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+
+  .news{
+      max-width: 500px;
+      display: inline-block;
+  }
 }
