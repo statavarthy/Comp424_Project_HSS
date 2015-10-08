@@ -79,6 +79,9 @@
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
 
+  #nav_bar_app ul {
+    display:none;
+  }
 
 }
 
@@ -90,6 +93,11 @@
       width: 35%;
       display: inline-block;
   }
+
+  #nav_bar_app select, #nav_bar_app button, #nav_bar_app ul{
+    display:none;
+  }
+
 }
 
 /* Desktops and laptops ----------- */
