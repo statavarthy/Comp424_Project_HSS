@@ -1,10 +1,10 @@
 
 //Create a select and append to #menu
 var $select = $("<select></select>");
-$("#nav_bar_app").append($select);
+$("#nav_list").append($select);
 
 //Cycle over menu links
-$("#nav_bar_app a").each(function(){
+$("#nav_list a").each(function(){
   var $anchor = $(this);
   //Create an option
   var $option = $("<option></option>");
@@ -23,7 +23,7 @@ $("#nav_bar_app a").each(function(){
 
 //Create button
 var $button = $("<button>Go</button>");
-$("#nav_bar_app").append($button);
+$("#nav_list").append($button);
 //Bind click to button
 $button.click(function(){
   //Go to select's location

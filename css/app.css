@@ -77,11 +77,26 @@
     border: 2px solid red;
     /*display: inline-block;*/
     width: 100%;
-
-
 }
 
+#nav_list{
+  border: green solid 1px;
+  text-align: right;
+}
+
+.icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  margin-top: 4px;
+  background-color: #888;
+}
+
+
 /************ MEDIA QUERIES ******************/
+
+
 
 
 /* Smartphones (landscape) ----------- */
