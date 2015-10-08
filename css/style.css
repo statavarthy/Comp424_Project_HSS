@@ -193,13 +193,9 @@ padding: 10px 10% 25px 10% !important;
   border-bottom: 1px solid #09C;
 }
 
-#menu {
-  display: inline-block;
-	text-align: center;
-  margin-top: 10px;
-}
 
 ul {
+	display: inline-block;
 	list-style: none;
 }
 
@@ -259,13 +255,18 @@ footer{
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
-
-
+	#nav_bar_app ul {
+    display:none;
+  }
 }
 
 
 /* Tablets (portrait and landscape) ----------- */
 @media only screen and (min-width : 768px) {
+	#nav_bar_app select, #nav_bar_app button, #nav_bar_app ul{
+    display:none;
+  }
+}
 
 
   #landing_page h1{
