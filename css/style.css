@@ -66,7 +66,6 @@ h1, h2, h3, h4, h5, p {
 
 #landing_page{
 	width: 100vw;
-  height: 110vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg1.jpeg);
   background-position: center center;
   background-repeat: none;
@@ -167,7 +166,7 @@ padding: 10px 10% 25px 10% !important;
 
 #sign_up_page{
 	width: 100vw;
-  height: 110vh;
+
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg2.jpeg);
   background-position: center center;
   background-repeat: none;
@@ -193,7 +192,7 @@ padding: 10px 10% 25px 10% !important;
 }
 
 
-/********** Sign In Form *************/
+/********** Sign In and Sign Up Form *************/
 
 #sign_in_form{
 	text-align: center;
@@ -212,8 +211,7 @@ padding: 10px 10% 25px 10% !important;
 
 .sign_in_button{
 	width: 100%;
-	margin-top: 15px;
-	margin-left: 1px;
+	margin: 15px 0 15px 1px;
 	height: 50px;
 	border-radius: 0px;
 	background-color: #09C;
@@ -311,18 +309,42 @@ footer{
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
-/* Styles */
+
+
 }
 
 
 /* Tablets (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-/* Styles */
+@media only screen and (min-width : 768px) {
+
+
+  #landing_page h1{
+  	font-size: 2.5em;
+  	padding: 10px 10% 25px 10% !important;
+    margin-top: 100px!important;
+  }
+
+  .text_input{
+  	width: 50%;
+  }
+
+  .sign_in_button{
+  	width: 50%;
+  }
+
 }
 
 /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-/* Styles */
+@media only screen  and (min-width : 980px) {
+
+  #landing_page h1{
+  	font-size: 3.5em;
+  }
+
+  #content{
+    border: 2px solid red;
+  }
+
 }
 
 /* Large screens ----------- */
