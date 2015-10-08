@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, p {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  	color: white;
+  color: white;
 }
 
 #landing_page h1{
@@ -175,8 +175,22 @@ padding: 10px 10% 25px 10% !important;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  color: white;
 }
 
+#landing_content h1{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2em;
+	text-align: center;
+	padding: 10px 10% 25px 10% !important;
+  margin-top: 25px!important;
+}
+
+#landing_content p {
+	padding: 0px 5% 15px 5% !important;
+	text-align: center;
+}
 
 
 /********** Sign In Form *************/
@@ -290,4 +304,28 @@ footer{
   background-color: rgb(68, 68, 68);
   height: 30px;
   border-top: 1px solid #09C;
+}
+
+/************ MEDIA QUERIES ******************/
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+
+/* Tablets (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
 }
