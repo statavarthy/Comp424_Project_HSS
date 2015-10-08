@@ -11,7 +11,7 @@
 			<!-- FONTS -->
 			<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 			<!-- JAVASCRIPT (leave at the end) -->
-			<script type="text/javascript" src="LoginValidations.js"></script>
+			
 	</head>
 	<body>
 
@@ -39,20 +39,33 @@
 				</div>
 
 				<div id="sign_in_form">
-						<form >
-							  <input class="text_input" type="text" name="email" placeholder="Email">
-								<br/>
-							  <input class="text_input" type="password" name="password" placeholder="Password">
-								<br/>
-							  <input class="text_input" type="password" name="password" placeholder="Password Confirmation">
-								<br/>
-							  <input class="sign_in_button" type="submit" value="Sign Up">
-						</form>
+		<form action="#" method="post">
+		<p>
+			<label for="username">Username</label>
+			<input class="text_input" id="username" name="username" type="text">
+		</p>
+		<p>
+			<label for="password">Password</label>
+			<input class="text_input" id="password" name="password" type="password">
+			<span class="span_style">Enter a password longer than 5 characters</span>
+		</p>
+		<p>
+			<label for="confirm_password">Confirm Password</label>
+			<input class="text_input"id="confirm_password" name="confirm_password" type="password">
+			<span class="span_style">Please confirm your password</span>
+		</p>
+		<p>
+			<input class="sign_in_button" type="submit" value="Sign Up">
+		</p>
+	</form>
 				</div> <!-- landing_content -->
 
 
 			</div> <!-- end landing_content -->
-
+			<footer>
+			<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/LoginValidations.js" type="text/javascript" charset="utf-8"></script>
+			</footer>
 
 </body>
 </html>
