@@ -169,13 +169,12 @@ label {
   display: block;
   font-size: 1.0em;
   text-align: center;
-  position: relative;
-  background: #2F558E;
-  left: 80%;
+  position: relative; 
+  left: 30%;
   top: 0px;
   width: 400px;
   padding: 7px 10px;
-  color: #fff;
+  color: red;
 }
 
 .span_style:after {
@@ -186,7 +185,7 @@ label {
   height: 0;
   width: 0;
   position: absolute;
-  pointer-events: none;
+  
   border-color: rgba(136, 183, 213, 0);
   border-right-color: #2F558E;
   border-width: 8px;
@@ -204,8 +203,7 @@ label {
 	margin-right: 10%;
 	margin-left: 10%;
 	width: 80%;
-	position: relative;
-	right:20%;
+	
 }
 
 .text_input{
