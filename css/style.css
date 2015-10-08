@@ -180,7 +180,7 @@ padding: 10px 10% 25px 10% !important;
 #landing_content h1{
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 2em;
+	font-size: 1.7em;
 	text-align: center;
 	padding: 10px 10% 25px 10% !important;
   margin-top: 25px!important;
@@ -304,6 +304,10 @@ footer{
   border-top: 1px solid #09C;
 }
 
+.hidden{
+  display: none;
+}
+
 /************ MEDIA QUERIES ******************/
 
 
@@ -319,7 +323,7 @@ footer{
 
 
   #landing_page h1{
-  	font-size: 2.5em;
+  	font-size: 2.2em;
   	padding: 10px 10% 25px 10% !important;
     margin-top: 100px!important;
   }
@@ -337,12 +341,33 @@ footer{
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 980px) {
 
-  #landing_page h1{
-  	font-size: 3.5em;
+  #landing_content h1{
+  	font-size: 2.2em;
+    margin-top: 10px!important;
+
+  }
+  
+  #content{
+    max-width: 100%;
+    margin-top: 10px !important;
+    overflow: hidden;
   }
 
-  #content{
-    border: 2px solid red;
+
+  #container{
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+  }
+
+
+  .phone_div {
+      display: inline-block;
+    }
+
+  .phone_div img{
+    width: 200px;
+    height: 400px;
   }
 
 }
