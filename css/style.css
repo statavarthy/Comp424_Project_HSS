@@ -90,14 +90,14 @@ h1, h2, h3, h4, h5, p {
 	text-align: center;
 }
 
-#description {
+.app_explanation {
   color: #09C;
   opacity: 0.8;
   border: 1px #09C solid;
   margin: 25px 10% 25px 10%;
 }
 
-#description h2{
+.app_explanation h2{
 text-transform: uppercase;
 font-weight: 700;
 font-size: 1.5em;
@@ -105,68 +105,24 @@ text-align: center;
 padding: 10px 10% 25px 10% !important;
 }
 
-#description p {
+.app_explanation p {
   color: black;
 	padding: 0px 5% 15px 5% !important;
 	text-align: center;
 }
 
-#sign_up {
-  color: #09C;
-  opacity: 0.8;
-  border: 1px #09C solid;
-  margin: 25px 10% 25px 10%;
-}
-
-#sign_up h3{
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.5em;
-  text-align: center;
-  padding: 10px 10% 25px 10% !important;
-}
-
-#sign_up p {
-  color: black;
-	padding: 0px 5% 15px 5% !important;
-	text-align: center;
-}
-
-#connect {
-  color: #09C;
-  background-color: white;
-  opacity: 0.8;
-  border: 1px #09C solid;
-  margin: 25px 10% 25px 10%;
-}
-
-#connect h4{
-text-transform: uppercase;
-font-weight: 700;
-font-size: 1.5em;
-text-align: center;
-padding: 10px 10% 25px 10% !important;
-}
-
-#connect p {
-  color: black;
-	padding: 0px 5% 15px 5% !important;
-	text-align: center;
-}
 .landing_img{
-  border: 2px red solid;
-  padding: 10px 0 10px 0;
+  margin: 25px 10% 25px 10%;
   text-align: center;
 }
 
 .landing_img img{
-  width: 250px;
+  width: 100%;
 }
 /*********** Landing Page for Sing Up **************/
 
 #sign_up_page{
 	width: 100vw;
-
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg2.jpeg);
   background-position: center center;
   background-repeat: none;
@@ -308,6 +264,10 @@ footer{
   display: none;
 }
 
+.hidden_article{
+  display: none;
+}
+
 /************ MEDIA QUERIES ******************/
 
 
@@ -336,6 +296,54 @@ footer{
   	width: 50%;
   }
 
+  #explanation_container{
+    text-align: center;
+  }
+
+  .app_explanation{
+    display: inline-block;
+    width: 300px;
+    margin: 25px 5%;
+    vertical-align: top;
+  }
+
+
+  .landing_img{
+    display: inline-block;
+    width: 300px;
+    margin: 25px 5%;
+    vertical-align: top;
+  }
+  .hidden_new{
+    display: none !important;
+  }
+
+  .hidden_article {
+    display: inline-block;
+    width: 300px;
+    margin: 25px 5%;
+    vertical-align: top;
+    color: #09C;
+    opacity: 0.8;
+    border: 1px #09C solid;
+  }
+
+
+  .hidden_article h2{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 10px 10% 25px 10% !important;
+  }
+
+  .hidden_article p {
+    color: black;
+  	padding: 0px 5% 15px 5% !important;
+  	text-align: center;
+  }
+
+
 }
 
 /* Desktops and laptops ----------- */
@@ -346,7 +354,7 @@ footer{
     margin-top: 10px!important;
 
   }
-  
+
   #content{
     max-width: 100%;
     margin-top: 10px !important;
