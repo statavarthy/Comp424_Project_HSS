@@ -9,7 +9,7 @@ $("form span").hide();
 
 
 
-function passwordEvent(){
+function passwordEvent(){	
 	
 	if(($email.val().indexOf('@')==-1)||($email.val().indexOf('.')==-1) || ($email.val().indexOf('')==-1))
 	{			
@@ -17,7 +17,6 @@ function passwordEvent(){
 	}else{
 		$email.next().hide();
 	}
-	
 	
     //Find out if password is valid  
     if($password.val().length > 5) {
@@ -27,6 +26,8 @@ function passwordEvent(){
       //else show hint
       $password.next().show();
     }
+    
+	
 }
 
 function confirmPasswordEvent() {

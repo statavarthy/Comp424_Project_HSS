@@ -11,7 +11,7 @@
 			<!-- FONTS -->
 			<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 			<!-- JAVASCRIPT (leave at the end) -->
-			<script type="text/javascript" src="LoginValidations.js"></script>
+			
 	</head>
 	<body>
 
@@ -43,6 +43,24 @@
 									<p>	Make changes to your user profile here.
 									</p>
 							</div><!-- end landing_content -->
+							
+		<div id="sign_in_form">
+		<form action="#" method="post">
+		
+		<p>
+			<label></label>
+			<input class="text_input" id="password" name="password" type="password" placeholder="Change Password">
+			<span class="span_style">Enter a password longer than 5 characters</span>
+		</p>
+		<p>
+			<label></label>
+			<input class="text_input"id="confirm_password" name="confirm_password" type="password" placeholder="Password Confirmation">
+			<span class="span_style">Please confirm your password</span>
+		</p>
+		<p>
+			<input class="sign_in_button" type="submit" value="Update Profile">
+		</p>
+	</form>
 
 
 					</div>
@@ -50,6 +68,8 @@
 </div>
 				<footer>
 					<p> FaceNews </p>
+					<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/LoginValidations.js" type="text/javascript" charset="utf-8"></script>
 
 				</footer>
 
