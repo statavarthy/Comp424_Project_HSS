@@ -1,12 +1,23 @@
 //Problem: Hints are shown even when form is valid
 //Solution: Hide and show them at appropriate times
+var $email= $("#username");
 var $password = $("#password");
 var $confirmPassword = $("#confirm_password");
 
 //Hide hints
 $("form span").hide();
 
+
+
 function passwordEvent(){
+	
+	if(($email.val().indexOf('@')==-1)||($email.val().indexOf('.')==-1) || ($email.val().indexOf('')==-1))
+	{			
+		$email.next().show();
+	}else{
+		$email.next().hide();
+	}
+	
 	
     //Find out if password is valid  
     if($password.val().length > 5) {
@@ -28,6 +39,7 @@ function confirmPasswordEvent() {
     $confirmPassword.next().show();
   }
 }
+
 
 
 //When event happens on password input

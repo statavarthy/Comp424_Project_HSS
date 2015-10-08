@@ -184,8 +184,7 @@ label {
   content: " ";
   height: 0;
   width: 0;
-  position: absolute;
-  
+  position: absolute;  
   border-color: rgba(136, 183, 213, 0);
   border-right-color: #2F558E;
   border-width: 8px;
