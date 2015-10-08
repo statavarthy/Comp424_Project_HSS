@@ -1,8 +1,4 @@
 
-
-//Problem: It look gross in smaller browser widths and small devices
-//Solution: To hide the text links and swap them out with a more appropriate navigation
-
 //Create a select and append to #menu
 var $select = $("<select></select>");
 $("#nav_bar_app").append($select);
@@ -24,6 +20,7 @@ $("#nav_bar_app a").each(function(){
   //append option to select
   $select.append($option);
 });
+
 //Create button
 var $button = $("<button>Go</button>");
 $("#nav_bar_app").append($button);

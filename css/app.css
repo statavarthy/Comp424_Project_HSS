@@ -71,17 +71,25 @@
   opacity: 0.3;
 }
 
+/***Nav bar***/
 
+#nav_bar_app{
+    border: 2px solid red;
+    /*display: inline-block;*/
+    width: 100%;
+
+
+}
 
 /************ MEDIA QUERIES ******************/
 
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
-
+/*
   #nav_bar_app ul {
     display:none;
-  }
+  }*/
 
 }
 
@@ -94,9 +102,9 @@
       display: inline-block;
   }
 
-  #nav_bar_app select, #nav_bar_app button, #nav_bar_app ul{
+  /*#nav_bar_app select, #nav_bar_app button, #nav_bar_app ul{
     display:none;
-  }
+  }*/
 
 }
 
