@@ -1,5 +1,5 @@
 * {
-	margin: 0;
+	margin:0;
 }
 html {
 	height: 100%;
@@ -18,6 +18,14 @@ h1, h2, h3, h4, h5, p {
 }
 .link{
 		text-decoration: none;
+}
+
+#wrapper{
+	min-height:100%;
+	position:relative;
+}
+#inside-wrapper{
+	padding-bottom:60px;
 }
 
 /************ Navigation Bar ***************/
@@ -138,6 +146,7 @@ padding: 10px 10% 25px 10% !important;
   background-size: cover;
   -o-background-size: cover;
   color: white;
+	padding-bottom:60px;
 }
 
 #landing_content h1{
@@ -168,6 +177,8 @@ padding: 10px 10% 25px 10% !important;
 }
 #about{
 	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 #about p{
 	padding: 0px 5% 15px 5% ;
@@ -309,6 +320,10 @@ footer{
   height: 60px;
   border-top: 1px solid #09C;
   color:white;
+	position:absolute;
+	bottom:0px;
+	left:0;
+	width: 100%;
 
 }
 

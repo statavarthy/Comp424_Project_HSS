@@ -11,65 +11,68 @@
 			<!-- FONTS -->
 			<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 			<!-- JAVASCRIPT (leave at the end) -->
-			
+
 	</head>
 	<body>
 
 
-
+<div id="wrapper">
 			<div  id="sign_up_page">
 
-				<nav id="nav_bar">
-						<div id="logo_holder">
-					  <a id="logo" class="link" href="#"> Face<span class="logo_color">News</span> </a>
-						</div>
+							<nav id="nav_bar">
+									<div id="logo_holder">
+								  <a id="logo" class="link" href="#"> Face<span class="logo_color">News</span> </a>
+									</div>
 
-							<a class="link" id="sing_in_div" href="index.html"> Sign In</a>
+										<a class="link" id="sing_in_div" href="index.html"> Sign In</a>
 
 
-				</nav>
+							</nav>
 
-				<div id="landing_content">
-						<h1>Sign Up to FaceNews</h1>
-						<p>	Find, follow and collect the
-							most important stories of the day.
-						</p>
-						<p>	Ready to Sign Up?
-						</p>
+							<div id="landing_content">
+									<h1>Sign Up to FaceNews</h1>
+									<p>	Find, follow and collect the
+										most important stories of the day.
+									</p>
+									<p>	Ready to Sign Up?
+									</p>
+							</div>
+
+									<div id="sign_in_form">
+									<form action="#" method="post">
+									<p>
+										<label ></label>
+										<input class="text_input" id="username" name="username" type="text" placeholder="Email ID">
+										<span class="span_style">Please Enter a valid email ID</span>
+									</p>
+									<p>
+										<label></label>
+										<input class="text_input" id="password" name="password" type="password" placeholder="Password">
+										<span class="span_style">Enter a password longer than 5 characters</span>
+									</p>
+									<p>
+										<label></label>
+										<input class="text_input"id="confirm_password" name="confirm_password" type="password" placeholder="Password Confirmation">
+										<span class="span_style">Please confirm your password</span>
+									</p>
+									<p>
+										<input class="sign_in_button" type="submit" value="Sign Up">
+									</p>
+								</form>
+							</div>
+
+
+
+						<footer>
+							<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+							<script src="js/LoginValidations.js" type="text/javascript" charset="utf-8"></script>
+							<p> FaceNews Inc. &nbsp; &nbsp;© Copyright & Disclaimer 2015</p>
+							<p><a href="mailto:info@facenews.com">Contact Us</a> </p>
+							<div class="footer_img" ><img src="images/logo.png"></div>
+						</footer>
 				</div>
 
-		<div id="sign_in_form">
-		<form action="#" method="post">
-		<p>
-			<label ></label>
-			<input class="text_input" id="username" name="username" type="text" placeholder="Email ID">
-			<span class="span_style">Please Enter a valid email ID</span>
-		</p>
-		<p>
-			<label></label>
-			<input class="text_input" id="password" name="password" type="password" placeholder="Password">
-			<span class="span_style">Enter a password longer than 5 characters</span>
-		</p>
-		<p>
-			<label></label>
-			<input class="text_input"id="confirm_password" name="confirm_password" type="password" placeholder="Password Confirmation">
-			<span class="span_style">Please confirm your password</span>
-		</p>
-		<p>
-			<input class="sign_in_button" type="submit" value="Sign Up">
-		</p>
-	</form>
-				</div> <!-- landing_content -->
-
-
-			</div> <!-- end landing_content -->
-	<footer>
-		<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/LoginValidations.js" type="text/javascript" charset="utf-8"></script>
-		<p> FaceNews Inc. &nbsp; &nbsp;© Copyright & Disclaimer 2015</p>
-		<p><a href="mailto:info@facenews.com">Contact Us</a> </p>		
-		<div class="footer_img" ><img src="images/logo.png"></div>	
-	</footer>
+</div>
 
 </body>
 </html>
