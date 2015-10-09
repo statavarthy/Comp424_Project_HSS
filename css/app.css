@@ -98,6 +98,25 @@
 #menu_desktop{
   display: none;
 }
+#test{
+  width: 90%;
+}
+
+#test li{
+  display: block;
+  width: 100%;
+}
+#submenu{
+  /*display: inline-block;*/
+  /*display: block;*/
+  margin-top: 30px;
+  width: 100%;
+  margin-right: -42px;
+  position: relative;
+  /*float: right;*/
+
+}
+
 
 
 /************ MEDIA QUERIES ******************/
@@ -126,6 +145,9 @@
   #mainmenu{
     display: none;
   }
+
+
+
 
 }
 

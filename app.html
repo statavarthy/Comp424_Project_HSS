@@ -28,7 +28,7 @@
               <span class="icon-bar"></span>
             </button>
 						<div id="submenu">
-									<ul>
+									<ul id="test">
 										<li class="selected"><a href="app.html">News</a></li>
 										<li><a href="about.html">About</a></li>
 										<li><a href="profile.html">Profile</a></li>
@@ -251,13 +251,13 @@
 				  $("#mainmenu").click(function() {
 				      if($("#submenu").is(":hidden")){
 				          $("#submenu").show("slow");
-				          $(".Menu").text("Close Menu");
-				          $(".Menu").removeClass( "Menu" ).addClass( "CloseMenu" );
+				          // $(".Menu").text("Close Menu");
+				          // $(".Menu").removeClass( "Menu" ).addClass( "CloseMenu" );
 				      }
 				      else{
 				          $("#submenu").hide();
-				          $(".CloseMenu").text("Menu");
-				          $(".CloseMenu").removeClass( "CloseMenu" ).addClass( "Menu" );
+				          // $(".CloseMenu").text("Menu");
+				          // $(".CloseMenu").removeClass( "CloseMenu" ).addClass( "Menu" );
 				      }
 				  });
 
