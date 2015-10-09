@@ -284,8 +284,16 @@ ul li.selected a:hover {
 /*  Footer  */
 footer{
   background-color: rgb(68, 68, 68);
-  height: 30px;
+  height: 60px;
   border-top: 1px solid #09C;
+  color:white;
+ 
+}
+
+.footer_img{
+  float: right;
+  margin-top: -40px;
+
 }
 
 .hidden{
