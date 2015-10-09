@@ -153,6 +153,32 @@ padding: 10px 10% 25px 10% !important;
 	padding: 0px 5% 15px 5% !important;
 	text-align: center;
 }
+#landing_content h2{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.3em;
+	text-align: center;
+	padding: 10px 10% 25px 10% !important;
+  margin-top: 25px!important;
+}
+
+#landing_content p {
+	padding: 0px % 15px 5% !important;
+	text-align: left;
+}
+#about{
+	text-align: center;
+}
+#about p{
+	padding: 0px 5% 15px 5% ;
+	border: 5px solid #09c;
+	display: inline-block;
+	width: 250px;
+
+
+
+
+}
 
 /**************************validation*******************/
 
