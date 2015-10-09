@@ -1,4 +1,5 @@
 
+
 /********   News Section   **********/
 
 
@@ -71,14 +72,41 @@
   opacity: 0.3;
 }
 
+/***Nav bar***/
+
+#nav_bar_app{
+    width: 100%;
+    height: auto;
+}
+#nav_logo{
+  display: inline-block;
+}
+
+.icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  margin-top: 4px;
+  background-color: #888;
+}
+
+#mainmenu{
+  float: right;
+}
+
+#menu_desktop{
+  display: none;
+}
 
 
 /************ MEDIA QUERIES ******************/
 
 
+
+
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
-
 
 }
 
@@ -90,6 +118,15 @@
       width: 35%;
       display: inline-block;
   }
+
+  #menu_desktop{
+    display: inline-block;
+    float: right;
+  }
+  #mainmenu{
+    display: none;
+  }
+
 }
 
 /* Desktops and laptops ----------- */
@@ -99,6 +136,7 @@
       margin-left: 2%;
       display: inline-block;
   }
+
 }
 
 /* Large screens ----------- */

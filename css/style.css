@@ -153,7 +153,7 @@ padding: 10px 10% 25px 10% !important;
 	padding: 0px 5% 15px 5% !important;
 	text-align: center;
 }
-	
+
 /**************************validation*******************/
 
 label {
@@ -211,7 +211,7 @@ label {
 	font-size: 0.667em;
 	border: 1px solid #E6E6E6;
 	width: 80%;
-	
+
 }
 
 .sign_in_button{
@@ -235,13 +235,9 @@ label {
   border-bottom: 1px solid #09C;
 }
 
-#menu {
-  display: inline-block;
-	text-align: center;
-  margin-top: 10px;
-}
 
 ul {
+	display: inline-block;
 	list-style: none;
 }
 
@@ -309,14 +305,12 @@ footer{
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
-
-
+	
 }
 
 
 /* Tablets (portrait and landscape) ----------- */
 @media only screen and (min-width : 768px) {
-
 
   #landing_page h1{
   	font-size: 2.2em;

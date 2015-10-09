@@ -13,24 +13,37 @@
 			<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 			<!-- JAVASCRIPT (leave at the end) -->
 			<script type="text/javascript" src="LoginValidations.js"></script>
+			<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+			<script type="text/javascript" src="js/navbar.js"></script>
 	</head>
 	<body>
 
-				<nav id="nav_bar_app">
-						<div id="logo_holder">
-					  <a id="logo" class="link" href="#"> Face<span class="logo_color">News</span> </a>
+				<div id="nav_bar_app">
+						<div id="nav_logo">
+					  		<a id="logo" class="link" href="#"> Face<span class="logo_color">News</span> </a>
 						</div>
-						<div id="menu">
-							<ul>
+						<button id="mainmenu" type="button" class="menu">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+						<div id="submenu">
+									<ul>
+										<li class="selected"><a href="app.html">News</a></li>
+										<li><a href="about.html">About</a></li>
+										<li><a href="profile.html">Profile</a></li>
+										<li><a class="link" href="index.html"> Log Out</a></li>
+									</ul>
+						</div>
+						<div id="menu_desktop">
+							<ul >
 								<li class="selected"><a href="app.html">News</a></li>
 								<li><a href="about.html">About</a></li>
 								<li><a href="profile.html">Profile</a></li>
+								<li><a class="link" href="index.html"> Log Out</a></li>
 							</ul>
 						</div>
-						<a class="link" id="sing_in_div" href="index.html"> Log Out</a>
-
-
-				</nav>
+				</div>
 
         <div id="app_content">
 
@@ -229,7 +242,30 @@
         </footer>
 
 
+				<script type="text/javascript">
 
+				$(document).ready(function() {
+				     $("#submenu").hide();
+				  });
+
+				  $("#mainmenu").click(function() {
+				      if($("#submenu").is(":hidden")){
+				          $("#submenu").show("slow");
+				          $(".Menu").text("Close Menu");
+				          $(".Menu").removeClass( "Menu" ).addClass( "CloseMenu" );
+				      }
+				      else{
+				          $("#submenu").hide();
+				          $(".CloseMenu").text("Menu");
+				          $(".CloseMenu").removeClass( "CloseMenu" ).addClass( "Menu" );
+				      }
+				  });
+
+				</script>
+
+				<!-- js scripts... -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/navbar.js"></script>
 
 
 </body>
