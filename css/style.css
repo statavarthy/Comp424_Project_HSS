@@ -153,6 +153,32 @@ padding: 10px 10% 25px 10% !important;
 	padding: 0px 5% 15px 5% !important;
 	text-align: center;
 }
+#landing_content h2{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.3em;
+	text-align: center;
+	padding: 10px 10% 25px 10% !important;
+  margin-top: 25px!important;
+}
+
+#landing_content p {
+	padding: 0px % 15px 5% !important;
+	text-align: left;
+}
+#about{
+	text-align: center;
+}
+#about p{
+	padding: 0px 5% 15px 5% ;
+	border: 5px solid #09c;
+	display: inline-block;
+	width: 250px;
+
+
+
+
+}
 
 /**************************validation*******************/
 
@@ -169,7 +195,7 @@ label {
   display: block;
   font-size: 1.0em;
   text-align: center;
-  position: relative; 
+  position: relative;
   left: 30%;
   top: 0px;
   width: 400px;
@@ -184,7 +210,7 @@ label {
   content: " ";
   height: 0;
   width: 0;
-  position: absolute;  
+  position: absolute;
   border-color: rgba(136, 183, 213, 0);
   border-right-color: #2F558E;
   border-width: 8px;
@@ -202,7 +228,7 @@ label {
 	margin-right: 10%;
 	margin-left: 10%;
 	width: 80%;
-	
+
 }
 
 .text_input{
@@ -283,7 +309,7 @@ footer{
   height: 60px;
   border-top: 1px solid #09C;
   color:white;
- 
+
 }
 
 .footer_img{
@@ -305,7 +331,7 @@ footer{
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
-	
+
 }
 
 
