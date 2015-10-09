@@ -154,46 +154,6 @@ padding: 10px 10% 25px 10% !important;
 	text-align: center;
 }
 
-/**************************validation*******************/
-
-label {
-  display: block;
-  font-size: 1em;
-  margin: 0 0 .5em;
-  position:realtive;
-  right:20%;
-}
-
-.span_style {
-  border-radius: 5px;
-  display: block;
-  font-size: 1.0em;
-  text-align: center;
-  position: relative; 
-  left: 30%;
-  top: 0px;
-  width: 400px;
-  padding: 7px 10px;
-  color: red;
-}
-
-.span_style:after {
-  right: 100%;
-  top: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;  
-  border-color: rgba(136, 183, 213, 0);
-  border-right-color: #2F558E;
-  border-width: 8px;
-  margin-top: -8px;
-}
-
-
-
-
 
 /********** Sign In and Sign Up Form *************/
 
@@ -202,7 +162,6 @@ label {
 	margin-right: 10%;
 	margin-left: 10%;
 	width: 80%;
-	
 }
 
 .text_input{
@@ -210,8 +169,7 @@ label {
 	height: 30px;
 	font-size: 0.667em;
 	border: 1px solid #E6E6E6;
-	width: 80%;
-
+	width: 100%;
 }
 
 .sign_in_button{
@@ -280,16 +238,8 @@ ul li.selected a:hover {
 /*  Footer  */
 footer{
   background-color: rgb(68, 68, 68);
-  height: 60px;
+  height: 30px;
   border-top: 1px solid #09C;
-  color:white;
- 
-}
-
-.footer_img{
-  float: right;
-  margin-top: -40px;
-
 }
 
 .hidden{
@@ -305,12 +255,19 @@ footer{
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
-	
+	#nav_bar_app ul {
+    display:none;
+  }
 }
 
 
 /* Tablets (portrait and landscape) ----------- */
 @media only screen and (min-width : 768px) {
+	#nav_bar_app select, #nav_bar_app button {
+    display:none;
+  }
+}
+
 
   #landing_page h1{
   	font-size: 2.2em;

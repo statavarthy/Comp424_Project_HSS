@@ -8,41 +8,60 @@
 
 			<!-- CSS  -->
 			<link rel="stylesheet" type="text/css" href="css/style.css">
+			<link rel="stylesheet" type="text/css" href="css/app.css">
 			<!-- FONTS -->
 			<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 			<!-- JAVASCRIPT (leave at the end) -->
 			<script type="text/javascript" src="LoginValidations.js"></script>
 			<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
-			<script type="text/javascript" src="js/NavBarApp.js"></script>
+			<script type="text/javascript" src="js/navbar.js"></script>
 	</head>
 	<body>
 
+		<div id="nav_bar_app">
+				<div id="nav_logo">
+						<a id="logo" class="link" href="#"> Face<span class="logo_color">News</span> </a>
+				</div>
+				<button id="mainmenu" type="button" class="menu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div id="submenu">
+							<ul>
+								<li><a href="app.html">News</a></li>
+								<li class="selected"><a href="about.html">About</a></li>
+								<li><a href="profile.html">Profile</a></li>
+								<li><a class="link" href="index.html"> Log Out</a></li>
+							</ul>
+				</div>
+				<div id="menu_desktop">
+					<ul>
+						<li><a href="app.html">News</a></li>
+						<li class="selected"><a href="about.html">About</a></li>
+						<li><a href="profile.html">Profile</a></li>
+						<li><a class="link" href="index.html"> Log Out</a></li>
+					</ul>
+				</div>
+		</div>
 
-
-			<div  id="landing_page">
 
 				<div id="landing_content"> <!-- landing_content -->
-
-					<nav id="nav_bar_app">
-							<div id="logo_holder">
-							<a id="logo" class="link" href="#"> Face<span class="logo_color">News</span> </a>
-							</div>
-
-								<ul>
-									<li><a href="app.html">News</a></li>
-									<li class="selected"><a href="about.html">About</a></li>
-									<li><a href="profile.html">Profile</a></li>
-								</ul>
-
-							<a class="link" id="sing_in_div" href="index.html"> Log Out</a>
-
-
-					</nav>
 
 
 									<h1>About FaceNews</h1>
 									<p>	Text describing FaceNews
 									</p>
+									<h2> Contact Us</h2>
+									<p> Mailing Address </p>
+									<p> FaceNews Customer Support</p>
+									<p> 123 Main Street</p>
+									<p> Somewhere, USA 12345 </p>
+									<p> Phone </p>
+									<p> 123-456-7890 </p>
+									<p> <a href="mailto:ceo@facenews.com">Email Us</a></p>
+
+
 							</div><!-- end landing_content -->
 
 
@@ -53,6 +72,32 @@
 					<p> FaceNews </p>
 
 				</footer>
+
+								<script type="text/javascript">
+
+								$(document).ready(function() {
+								     $("#submenu").hide();
+								  });
+
+								  $("#mainmenu").click(function() {
+								      if($("#submenu").is(":hidden")){
+								          $("#submenu").show("slow");
+								          $(".Menu").text("Close Menu");
+								          $(".Menu").removeClass( "Menu" ).addClass( "CloseMenu" );
+								      }
+								      else{
+								          $("#submenu").hide();
+								          $(".CloseMenu").text("Menu");
+								          $(".CloseMenu").removeClass( "CloseMenu" ).addClass( "Menu" );
+								      }
+								  });
+
+								</script>
+
+								<!-- js scripts... -->
+				    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+				    <script type="text/javascript" src="js/navbar.js"></script>
+
 
 </body>
 </html>

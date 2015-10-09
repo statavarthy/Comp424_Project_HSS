@@ -1,64 +1,72 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		  <meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-			<title>FaceNews | Discover the best news around you.</title>
+		<title>FaceNews | Discover the best news around you.</title>
 
-			<!-- CSS  -->
-			<link rel="stylesheet" type="text/css" href="css/style.css">
-			<!-- FONTS -->
-			<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-			<!-- JAVASCRIPT (leave at the end) -->
-
-	</head>
+		<!-- CSS  -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/app.css">
+		<!-- FONTS -->
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+		<!-- JAVASCRIPT (leave at the end) -->
+		<script type="text/javascript" src="LoginValidations.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/navbar.js"></script>
+</head>
 	<body>
 
-
-
-			<div  id="landing_page">
-
-				<div id="landing_content"> <!-- landing_content -->
-
-					<nav id="nav_bar_app">
-							<div id="logo_holder">
-							<a id="logo" class="link" href="#"> Face<span class="logo_color">News</span> </a>
-							</div>
-
-								<ul>
-									<li><a href="app.html">News</a></li>
-									<li ><a href="about.html">About</a></li>
-									<li class="selected"><a href="profile.html">Profile</a></li>
-								</ul>
-
-							<a class="link" id="sing_in_div" href="index.html"> Log Out</a>
-
-
-					</nav>
+						<div id="nav_bar_app">
+								<div id="nav_logo">
+							  		<a id="logo" class="link" href="#"> Face<span class="logo_color">News</span> </a>
+								</div>
+								<button id="mainmenu" type="button" class="menu">
+		              <span class="icon-bar"></span>
+		              <span class="icon-bar"></span>
+		              <span class="icon-bar"></span>
+		            </button>
+								<div id="submenu">
+											<ul>
+												<li><a href="app.html">News</a></li>
+												<li><a href="about.html">About</a></li>
+												<li class="selected"><a href="profile.html">Profile</a></li>
+												<li><a class="link" href="index.html"> Log Out</a></li>
+											</ul>
+								</div>
+								<div id="menu_desktop">
+									<ul>
+										<li><a href="app.html">News</a></li>
+										<li><a href="about.html">About</a></li>
+										<li class="selected"><a href="profile.html">Profile</a></li>
+										<li><a class="link" href="index.html"> Log Out</a></li>
+									</ul>
+								</div>
+						</div>
 
 							<div id="landing_content">
 									<h1>My Profile</h1>
 									<p>	Make changes to your user profile here.
 									</p>
 							</div><!-- end landing_content -->
-							
+
 		<div id="sign_in_form">
 		<form action="#" method="post">
 		<p>
 			<label></label>
-			<input class="text_input" id="name" name="name" type="text" placeholder="Update Full Name (First, Last)">			
+			<input class="text_input" id="name" name="name" type="text" placeholder="Update Full Name (First, Last)">
 		</p>
 		<p>
 			<label></label>
-			<input class="text_input" id="dob" name="dob" type="date" placeholder="(mm/dd/yyyy)">			
+			<input class="text_input" id="dob" name="dob" type="date" placeholder="(mm/dd/yyyy)">
 		</p>
 		<p>
 			<label></label>
 			<input class="text_input" id="username" name="email" type="text" placeholder="Update Email ID">
-			<span class="span_style">Please Enter a valid email ID</span>			
+			<span class="span_style">Please Enter a valid email ID</span>
 		</p>
-		
+
 		<p>
 			<label></label>
 			<input class="text_input" id="password" name="password" type="password" placeholder="Change Password">
@@ -83,9 +91,30 @@
 		<script src="js/LoginValidations.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" src="js/NavBarApp.js"></script>
 		<p> FaceNews Inc. &nbsp; &nbsp;© Copyright & Disclaimer 2015</p>
-		<p><a href="mailto:info@facenews.com">Contact Us</a> </p>		
-		<div class="footer_img" ><img src="images/logo.png"></div>	
+		<p><a href="mailto:info@facenews.com">Contact Us</a> </p>
+		<div class="footer_img" ><img src="images/logo.png"></div>
 	</footer>
+	<script type="text/javascript">
+
+	$(document).ready(function() {
+			 $("#submenu").hide();
+		});
+
+		$("#mainmenu").click(function() {
+				if($("#submenu").is(":hidden")){
+						$("#submenu").show("slow");
+						$(".Menu").text("Close Menu");
+						$(".Menu").removeClass( "Menu" ).addClass( "CloseMenu" );
+				}
+				else{
+						$("#submenu").hide();
+						$(".CloseMenu").text("Menu");
+						$(".CloseMenu").removeClass( "CloseMenu" ).addClass( "Menu" );
+				}
+		});
+
+	</script>
+
 
 </body>
 </html>
