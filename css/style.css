@@ -171,10 +171,6 @@ padding: 10px 10% 25px 10% !important;
   margin-top: 25px!important;
 }
 
-#landing_content p {
-	padding: 0px % 15px 5% !important;
-	text-align: left;
-}
 #about{
 	text-align: center;
 	margin-top: 25px;
@@ -392,7 +388,7 @@ footer{
   .hidden_article {
     display: inline-block;
     width: 300px;
-    margin: 25px 5%;
+    margin: 150px 5% 0 5%;
     vertical-align: top;
     color: #09C;
     opacity: 0.8;
