@@ -97,14 +97,19 @@ ul li.selected a:hover {
 
 /********   News Section   **********/
 
-#app_content{
-  background-color: rgb(216, 216, 216);
-}
+
 
 .news{
   height: 225px;
   width: 80%;
   margin: 25px 0 25px 10%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;"
 }
 
 .time_holder{
@@ -192,6 +197,12 @@ ul li.selected a:hover {
     float: right;
   }
   #mainmenu{
+    display: none;
+  }
+  .icon-bar{
+    display: none;
+  }
+  #submenu{
     display: none;
   }
 
