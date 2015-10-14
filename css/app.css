@@ -153,6 +153,7 @@ ul li.selected a:hover {
 
 .source{
   margin-top: 5px;
+  margin-left: 15px;
 }
 .source_img_container{
   display: inline-block;
