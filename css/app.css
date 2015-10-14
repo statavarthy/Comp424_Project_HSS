@@ -112,6 +112,11 @@ ul li.selected a:hover {
   -o-background-size: cover;"
 }
 
+.news:hover{
+  border: 5px solid #09C;
+}
+
+
 .time_holder{
   margin-left: 5px;
   padding-top: 5px;
@@ -133,7 +138,6 @@ ul li.selected a:hover {
     height: 130px;
     overflow: hidden;
     margin-left: 10px;
-    font-size: 0.8em;
     padding-top: 15px;
     padding-bottom: 5px;
 }
@@ -141,7 +145,6 @@ ul li.selected a:hover {
 .news_title{
   font-size: 0.65em;
   color: white;
-  line-height: 0px;
 }
 
 .news_title:hover{
@@ -168,8 +171,11 @@ ul li.selected a:hover {
 .likes{
   float: right;
   color: #FFF;
-  opacity: 0.3;
+  opacity: 0.5;
+  margin-right: 10px;
 }
+
+
 
 
 
