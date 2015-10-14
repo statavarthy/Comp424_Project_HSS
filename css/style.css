@@ -197,35 +197,21 @@ label {
   right:20%;
 }
 
+
+
 .span_style {
-  border-radius: 5px;
-  display: block;
-  font-size: 1.0em;
+  border-radius: 5px;  
+  font-size: 0.8em;
   text-align: center;
   position: relative;
-  left: 30%;
-  top: 0px;
-  width: 400px;
+  top: 5px;
+  display: block;  
+  width: 200px;
   padding: 7px 10px;
   color: red;
+  margin-left: auto;
+  margin-right:auto;
 }
-
-.span_style:after {
-  right: 100%;
-  top: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  border-color: rgba(136, 183, 213, 0);
-  border-right-color: #2F558E;
-  border-width: 8px;
-  margin-top: -8px;
-}
-
-
-
 
 
 /********** Sign In and Sign Up Form *************/
@@ -314,6 +300,7 @@ footer p{
 /* Tablets (portrait and landscape) ----------- */
 @media only screen and (min-width : 768px) {
 
+
   #landing_page h1{
   	font-size: 2.2em;
   	padding: 10px 10% 25px 10% !important;
@@ -387,6 +374,8 @@ footer p{
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 980px) {
 
+
+
   #landing_content h1{
   	font-size: 2.2em;
     margin-top: 10px!important;
@@ -418,7 +407,4 @@ footer p{
 
 }
 
-/* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
-/* Styles */
-}
+
